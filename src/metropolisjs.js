@@ -7,6 +7,10 @@ export class Metropolisjs {
         this.maxdensity = 10;
     }
 
+    //state - initial state
+    //startx - initial value
+    //q - target distribution
+    //n - number of sampels
     fit(state, startx, q, n) {
         let i = 0;
         let result = [];
