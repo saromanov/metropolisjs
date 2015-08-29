@@ -1,5 +1,4 @@
 import mathjs from 'mathjs';
-import underscore, {random} from 'underscore';
 
 export class Metropolisjs {
     constructor(mindensity=0, maxdensity=10){
