@@ -10,14 +10,14 @@ export class Metropolisjs {
     //startx - initial value
     //q - target distribution
     //n - number of sampels
-    fit(state, startx, q, n) {
+    fit(state, q, n, startx=-1) {
         let i = 0;
         let result = [];
         let xcurrent = startx;
         while(i != n) {
-            let x = q(xcurrent);
             let u = Math.random();
-            let A = mathjs.min(1, state/x);
+            let xn = q(u);
+            let A = mathjs.min(1, xn/startx);
             if(u <= A) {
                 xcurrent = x;
             }
