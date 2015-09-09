@@ -10,7 +10,7 @@ export class Metropolisjs {
     //startx - initial value
     //q - target distribution
     //n - number of sampels
-    fit(state, q, n, startx=-1) {
+    fit(state, q, n=1000, startx=-1) {
         let i = 0;
         let result = [];
         let xcurrent = startx;
