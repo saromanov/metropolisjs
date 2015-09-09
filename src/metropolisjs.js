@@ -18,7 +18,7 @@ export class Metropolisjs {
             let u = Math.random();
             let xn = q(u);
             let A = mathjs.min(1, xn/startx);
-            if(u <= A) {
+            if(mathjs.log(u) <= A) {
                 xcurrent = xn;
                 result.push(xn);
             }
