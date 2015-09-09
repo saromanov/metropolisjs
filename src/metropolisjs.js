@@ -19,9 +19,11 @@ export class Metropolisjs {
             let xn = q(u);
             let A = mathjs.min(1, xn/startx);
             if(u <= A) {
-                xcurrent = x;
+                xcurrent = xn;
+                result.push(xn);
             }
 
         }
+        return result;
     }
 }
