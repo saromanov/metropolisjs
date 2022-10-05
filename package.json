@@ -14,15 +14,15 @@
   "author": "Sergey Romanov <xxsmotur@gmail.com> (https://github.com/saromanov)",
   "license": "MIT",
   "devDependencies": {
-    "mathjs": "^6.2.3",
+    "mathjs": "^7.5.1",
     "underscore": "^1.8.3"
   },
   "dependencies": {
-    "mathjs": "^6.2.3",
+    "mathjs": "^7.5.1",
     "random-array": "0.0.2",
     "core-js": "^0.6.0",
-     "babel": "^4.6.0",
-    "mocha": "^2.2.5"
+     "babel": "^6.0.0",
+    "mocha": "^6.2.3"
 
   }
 }
